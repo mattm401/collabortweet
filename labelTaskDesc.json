@@ -1,11 +1,16 @@
 {
-	"name": "Nigeria 2015 - Relevance Labels",
-	"question": "Is this tweet relevant to the Nigerian 2015 election?",
+	"name": "Social Thermography",
+	"question": "How is this video relevant to Thermal Cameras?",
 	"type": 2,
 	"labels": [
-		"Relevant",
-		"Not Relevant",
-		"Not English",
-		"Can't Decide"
+		"Product Review",
+		"News Coverage Reportage",
+		"Unboxing",
+		"Demonstration" ,
+        "Playful / Experimental Satire",
+		"Advertisement",
+		"Unstructured, Playful, and Experimental Use",
+        "Unsure",
+		"Not-Relevant"
 	]
 }

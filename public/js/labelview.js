@@ -1,4 +1,6 @@
 // Call when the document is ready
+
+
 $( document ).ready(function() {
 	console.log( "ready!" );
 
@@ -40,8 +42,28 @@ var loadDataElements = function() {
 		} else {
 			console.log("Acquired element...");
 
-			$("#element-content-panel").text(dataElement.elementText);
+			$("#element-content-panel").html(dataElement.elementText);
 
+var name = "";
+$.getJSON('convertcsvarray.json', function (json) {
+var array = [];
+for (var key in json) {
+    if (json.hasOwnProperty(key)) {
+        var item = json[key];
+        array.push({
+            VideoId: item.VideoId,
+            Title: item.Title,
+            Author: item.Author,
+            Published: item.Published
+
+        });
+        console.log(item);
+    }
+}
+});
+console.log(dataElement);
+
+            $("#video").attr('src' , "https://www.youtube.com/embed/" );
 			// turn off the keypress function
 			$(document).off("keypress");
 
