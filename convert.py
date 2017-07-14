@@ -1,5 +1,7 @@
 import csv
 import json
+import decimal
+import codecs
 
 
 
@@ -16,25 +18,28 @@ writer = csv.DictWriter(f, fieldnames=("VideoID", "Title", "Description"))
 
 a = []
 headerRow = False
-for row in reader:
-    if (headerRow == False):
-        headerRow = True
-        continue
+with open('tweetSample.json', 'wb') as outfile:
+
+    for row in reader:
+        if (headerRow == False):
+            headerRow = True
+            continue
     #json.wite(<iframe ... href=\""+row["Video"]+"\">")
-    src = ' src="http://www.youtube.com/embed/' + row['VideoID']
+        src = ' src="http://www.youtube.com/embed/' + row['VideoID']
 
-    whole = '<iframe ' + src + "\"" + ' width="560" height="315" frameborder="0" allowfullscreen></iframe>'
+        whole = '<iframe style=\"float:left; padding-right:12px;\"' + src + "\"" + ' width="560" height="315" frameborder="0" allowfullscreen></iframe>'
 
-    title = row['Title']
+        title = row['Title']
 
-    entire = '<h2>' + title + '</h2>' + '<br><br>' + whole
+        entire = '<h2>' + title + '</h2>' + '<br><br>' + whole
 
 
-    second = "<br><br><p>" + row['Description'] + "</p>"
+        second = "<h3>Description</h3><br><br><p style=\"overflow:hidden;\"> " + row['Description'] + "</p>"
 
-    actualentire = { "VideoID" : row['VideoID'], "html": entire+second}
-    a.append(actualentire)
-print a
+        actualentire = { "VideoID" : row['VideoID'], "html": entire+second}
+        a.append(actualentire)
+        outfile.write(json.dumps(actualentire, ensure_ascii=False) + "\n")
+    print a
 
     #writer.write(actualentire)
 #writer.writerow(outside)
@@ -47,8 +52,8 @@ print a
 #f.write(out)
 
 
-with open('tweetSample.json', 'wb') as outfile:
-    json.dump(a, outfile)
+
+    #json.dump(a, outfile)
 
 
 
