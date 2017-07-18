@@ -4,12 +4,11 @@
 	"type": 2,
 	"labels": [
 		"Product Review",
-		"News Coverage Reportage",
+		"News Coverage",
 		"Unboxing",
 		"Demonstration" ,
-        "Playful / Experimental Satire",
 		"Advertisement",
-		"Unstructured, Playful, and Experimental Use",
+		"Unstructured",
         "Unsure",
 		"Not-Relevant"
 	]

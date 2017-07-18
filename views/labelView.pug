@@ -19,7 +19,7 @@ html
             div(class="row")
                 div(class="panel panel-default")
                     div(class="panel-body")
-                        pre(id="element-content-panel" style="height:350px;")
+                        pre(id="element-content-panel" style="height:500px; font-size:75%;")
 
 
             - var labelCount = labels.length
@@ -29,8 +29,8 @@ html
                 - labelIndex++
 
 
-                div(class="row text-center")
-                    h4(class="btn btn-primary btn-lg selected-label", labelindex=labelIndex, labelid=labelItem.labelId)
+                div(class=" col-xs-3  text-center")
+                    h4(class="btn btn-primary btn-lg selected-label ",style="width:235px;", labelindex=labelIndex, labelid=labelItem.labelId)
                         u= labelIndex
                         span . #{labelItem.labelText}
 

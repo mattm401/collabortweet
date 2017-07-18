@@ -34,11 +34,11 @@ with open('tweetSample.json', 'wb') as outfile:
         entire = '<h2>' + title + '</h2>' + '<br><br>' + whole
 
 
-        second = "<h3>Description</h3><br><br><p style=\"overflow:hidden;\"> " + row['Description'] + "</p>"
+        second = "<h3>Description</h3><p style=\"size:75%; overflow:scroll;\"> "  + row['Description'] + "</p>"
 
         actualentire = { "VideoID" : row['VideoID'], "html": entire+second}
-        a.append(actualentire)
-        outfile.write(json.dumps(actualentire, ensure_ascii=False) + "\n")
+        #a.append(actualentire)
+        outfile.write(json.dumps(actualentire) + "\n")
     print a
 
     #writer.write(actualentire)

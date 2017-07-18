@@ -43,9 +43,9 @@ var loadDataElements = function() {
 			console.log("Acquired element...");
 
 			$("#element-content-panel").html(dataElement.elementText);
-
+console.log(dataElement.elementText)
 var name = "";
-$.getJSON('convertcsvarray.json', function (json) {
+$.getJSON('tweetSample.json', function (json) {
 var array = [];
 for (var key in json) {
     if (json.hasOwnProperty(key)) {
