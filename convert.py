@@ -34,7 +34,7 @@ with open('tweetSample.json', 'wb') as outfile:
         entire = '<h2 style=\"text-align:center\">' + title + '</h2>' + '<br><br>' + whole
 
 
-        second = "<div style=\"width:550px; max-height:400px; overflow:hidden;\"><h3>Description</h3><p> "  + row['Description'] + "</p></div>"
+        second = "<div style=\"width:550px; max-height:400px; overflow:hidden;\"><h3>Description</h3><p>"  + row['Description'] + "</p></div>"
 
         actualentire = { "VideoID" : row['VideoID'], "html": entire+second}
         #a.append(actualentire)
