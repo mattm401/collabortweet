@@ -27,14 +27,14 @@ with open('tweetSample.json', 'wb') as outfile:
     #json.wite(<iframe ... href=\""+row["Video"]+"\">")
         src = ' src="http://www.youtube.com/embed/' + row['VideoID']
 
-        whole = '<iframe style=\"float:left; padding-right:12px;\"' + src + "\"" + ' width="560" height="315" frameborder="0" allowfullscreen></iframe>'
+        whole = '<div style="max-height:300px;"><iframe style=\"float:left; padding-right:12px;\"' + src + "\"" + ' width="560" height="315" frameborder="0" allowfullscreen></iframe></div>'
 
         title = row['Title']
 
-        entire = '<h2>' + title + '</h2>' + '<br><br>' + whole
+        entire = '<h2 style=\"text-align:center\">' + title + '</h2>' + '<br><br>' + whole
 
 
-        second = "<h3>Description</h3><p style=\"size:75%; overflow:scroll;\"> "  + row['Description'] + "</p>"
+        second = "<div style=\"width:550px; max-height:400px; overflow:hidden;\"><h3>Description</h3><p> "  + row['Description'] + "</p></div>"
 
         actualentire = { "VideoID" : row['VideoID'], "html": entire+second}
         #a.append(actualentire)

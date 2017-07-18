@@ -43,6 +43,7 @@ var loadDataElements = function() {
 			console.log("Acquired element...");
 
 			$("#element-content-panel").html(dataElement.elementText);
+			$("#element-content-panels").html(dataElement.elementText);
 console.log(dataElement.elementText)
 var name = "";
 $.getJSON('tweetSample.json', function (json) {
