@@ -9,7 +9,7 @@ import codecs
 
 
 # Open the CSV
-f = open('./scraper.csv', 'rb')
+f = open('./IRR1_200_RandomlySampledData_Filtered.csv', 'rb')
 # Change each fieldname to the appropriate field name. I know, so difficult.
 reader = csv.DictReader(f, fieldnames=("VideoID", "Title", "Description" , "Author"))
 
