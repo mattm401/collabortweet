@@ -27,14 +27,14 @@ with open('tweetSample.json', 'wb') as outfile:
     #json.wite(<iframe ... href=\""+row["Video"]+"\">")
         src = ' src="http://www.youtube.com/embed/' + row['VideoID']
 
-        whole = '<div style="max-height:300px;"><iframe style=\"float:left; padding-right:12px; padding-left:8px;\"' + src + "\"" + ' width="560" height="315" frameborder="0" allowfullscreen></iframe>' + "<br><h4 style=\"position: relative;top: 320px;right: 560px;\">Author:" + row['Author']  + "</h4>"+  "</div>"
+        whole = '<div style="max-height:300px;"><iframe style=\"float:left; padding-right:12px; padding-left:8px;\"' + src + "\"" + ' width="560" height="315" frameborder="0" allowfullscreen></iframe>' + "<br><h4 style=\"position: relative;top: 320px;right: 360px;\">Author:" + row['Author']  + "</h4>"+  "</div>"
 
         title = row['Title']
 
         entire = '<h2 style=\"text-align:center\">' + title + '</h2>' + '<br><br>' + whole
 
 
-        second = "<div style=\"float: right;width:550px; height:350px;position: relative; top: -20px;left: -300px;overflow-y: scroll;\"><h3>Description</h3><p style=\"word-break: break-all; white-space: normal; margin-right:13px;\">"  + row['Description'] + "</p></div>"
+        second = "<div style=\"float: right;width:690px; height:350px;position: relative; top: -68px;left: -140px;overflow-y: scroll;\"><h3>Description</h3><p style=\"word-break: break-all; white-space: normal; margin-right:13px;\">"  + row['Description'] + "</p></div>"
 
         actualentire = { "VideoID" : row['VideoID'], "html": entire+second}
         #a.append(actualentire)
