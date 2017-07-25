@@ -46,22 +46,7 @@ var loadDataElements = function() {
 			$("#element-content-panels").html(dataElement.elementText);
 console.log(dataElement.elementText)
 var name = "";
-$.getJSON('tweetSample.json', function (json) {
-var array = [];
-for (var key in json) {
-    if (json.hasOwnProperty(key)) {
-        var item = json[key];
-        array.push({
-            VideoId: item.VideoId,
-            Title: item.Title,
-            Author: item.Author,
-            Published: item.Published
 
-        });
-        console.log(item);
-    }
-}
-});
 console.log(dataElement);
 
             $("#video").attr('src' , "https://www.youtube.com/embed/" );
