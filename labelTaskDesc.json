@@ -6,11 +6,10 @@
 		"Product Review",
 		"News Coverage",
 		"Unboxing",
-		"Demonstration" ,
+		"Educational" ,
 		"Advertisement",
 		"Unstructured",
         "Unsure",
-		"Not-Relevant",
-        "Lecture"
+		"Not-Relevant"
 	]
 }
