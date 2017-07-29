@@ -34,7 +34,7 @@ public class mainclass {
 	    CsvParser parser = new CsvParser(settings);
 
 	    // call beginParsing to read records one by one, iterator-style.
-	    parser.beginParsing(new FileReader("./newname.csv"));
+	    parser.beginParsing(new FileReader("./input.csv"));
 
 	    String[] row;
 	    List<List<String>> stats = new ArrayList<List<String>>();
