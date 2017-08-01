@@ -34,7 +34,7 @@ public class mainclass {
 	    CsvParser parser = new CsvParser(settings);
 
 	    // call beginParsing to read records one by one, iterator-style.
-	    parser.beginParsing(new FileReader("./input.csv"));
+	    parser.beginParsing(new FileReader("./IRR1_189_Exported.csv"));
 
 	    String[] row;
 	    List<List<String>> stats = new ArrayList<List<String>>();
@@ -78,7 +78,7 @@ public class mainclass {
 	    stats.add(first);
 	    for (int i = 0; i < originial.size()-1; i++) {
 	    	List<String> x = new ArrayList<String>();
-	    	
+	    	if (i!=0) {
 	       	if (!isSecondRow) {
 	    		x.add(Integer.toString(elementCount));
 	    		x.add("0");
@@ -155,7 +155,7 @@ public class mainclass {
 	    		isSecondRow = false;
 	    	}
 	    	
-	    	
+	    	}
 	    }
 	    
 	    
