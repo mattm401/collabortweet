@@ -1,15 +1,9 @@
 {
-	"name": "Social Thermography-Sapna",
-	"question": "How is this video relevant to Thermal Cameras?",
+	"name": "Social Thermography-unstructured",
+	"question": "Question: Is this video an example of unstructured use of a thermal camera?",
 	"type": 2,
 	"labels": [
-		"Product Review",
-		"News Coverage",
-		"Unboxing",
-		"Educational" ,
-		"Advertisement",
 		"Unstructured",
-        "Unsure",
-		"Not-Relevant"
+		"Not Unstructured"
 	]
 }

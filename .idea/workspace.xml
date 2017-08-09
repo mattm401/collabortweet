@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2786fb2-941f-4d24-be93-ef454007290b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sams.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sapna.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pairComp.sqlite3" afterPath="$PROJECT_DIR$/pairComp.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert.py" afterPath="$PROJECT_DIR$/convert.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labelTaskDesc.json" afterPath="$PROJECT_DIR$/labelTaskDesc.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tweetSample.json" afterPath="$PROJECT_DIR$/tweetSample.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/labelView.pug" afterPath="$PROJECT_DIR$/views/labelView.pug" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +20,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/collabortweet$newConvertor.coverage" NAME="newConvertor Coverage Results" MODIFIED="1501001530463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/collabortweet$convert.coverage" NAME="convert Coverage Results" MODIFIED="1501601840258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/collabortweet$convert.coverage" NAME="convert Coverage Results" MODIFIED="1502288584148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/collabortweet$tweets2sql.coverage" NAME="tweets2sql Coverage Results" MODIFIED="1499799667234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/collabortweet$convertor.coverage" NAME="convertor Coverage Results" MODIFIED="1499953933418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -34,8 +39,8 @@
       <file leaf-file-name="labelView.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/labelView.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+            <state relative-caret-position="184">
+              <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -54,8 +59,8 @@
       <file leaf-file-name="convert.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/convert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -63,17 +68,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sapna.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sapna.csv">
+      <file leaf-file-name="tweets2sql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tweets2sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15015">
-              <caret line="1001" column="0" lean-forward="false" selection-start-line="1001" selection-start-column="0" selection-end-line="1001" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <marker date="1499890597000" expanded="true" signature="936:1015" ph="INSERT INTO tasks... " />
+                <marker date="1499890597000" expanded="true" signature="1203:1272" ph="INSERT INTO elements... " />
+                <marker date="1499890597000" expanded="true" signature="2322:2390" ph="INSERT INTO pairs... " />
+                <marker date="1499890597000" expanded="true" signature="2680:2746" ph="INSERT INTO labels... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tweetSample.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tweetSample.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tweetSample.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -83,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="labelTaskDesc.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="labelTaskDesc.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/labelTaskDesc.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -155,12 +165,12 @@
         <option value="$PROJECT_DIR$/newConvertor.py" />
         <option value="$PROJECT_DIR$/public/js/labelview.js" />
         <option value="$PROJECT_DIR$/scraper.csv" />
-        <option value="$PROJECT_DIR$/views/labelView.pug" />
         <option value="$PROJECT_DIR$/Untitled spreadsheet - export.csv" />
         <option value="$PROJECT_DIR$/sams.csv" />
         <option value="$PROJECT_DIR$/sapna.csv" />
-        <option value="$PROJECT_DIR$/convert.py" />
         <option value="$PROJECT_DIR$/tweetSample.json" />
+        <option value="$PROJECT_DIR$/views/labelView.pug" />
+        <option value="$PROJECT_DIR$/convert.py" />
         <option value="$PROJECT_DIR$/labelTaskDesc.json" />
       </list>
     </option>
@@ -544,7 +554,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2672919" sideWeight="0.10208333" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.010729614" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626506" sideWeight="0.8979167" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -813,21 +823,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newConvertor.py" />
-    <entry file="file://$PROJECT_DIR$/tweets2sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/labelView.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/labelview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -868,22 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sapna.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15015">
-          <caret line="1001" column="0" lean-forward="false" selection-start-line="1001" selection-start-column="0" selection-end-line="1001" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sams.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15015">
@@ -892,21 +871,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sapna.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/labelView.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/convert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labelTaskDesc.json">
+    <entry file="file://$PROJECT_DIR$/tweets2sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <marker date="1499890597000" expanded="true" signature="936:1015" ph="INSERT INTO tasks... " />
+            <marker date="1499890597000" expanded="true" signature="1203:1272" ph="INSERT INTO elements... " />
+            <marker date="1499890597000" expanded="true" signature="2322:2390" ph="INSERT INTO pairs... " />
+            <marker date="1499890597000" expanded="true" signature="2680:2746" ph="INSERT INTO labels... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -914,6 +922,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labelTaskDesc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
